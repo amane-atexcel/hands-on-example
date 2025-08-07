@@ -16,7 +16,7 @@ def update_movie(movie_id, new_name):
             host="localhost",
             database="movies",
             user="root",
-            password=" " #Add password
+            password="0931" #Add password
         ) as conn:
             with conn.cursor() as cursor:
                 cursor.execute(query, data)

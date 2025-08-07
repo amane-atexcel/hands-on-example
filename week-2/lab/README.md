@@ -1,13 +1,16 @@
 ## Lab Three
+
 Python script to create,read,update,delete (CRUD) a row from a **table**
 
-
 ## Run Locally
+
 Create a database
+
 ```bash
 CREATE DATABASE movies;
 USE movies;
 ```
+
 Clone the project
 
 ```bash
@@ -31,23 +34,29 @@ Create Table
 ```bash
   python create_table.py
 ```
+
 Insert Table
 
 ```bash
   python insert_table.py
 ```
+
 Select Rows from a Table
 
 ```bash
   python select.py
 ```
+
 Update a row from a Table
 
 ```bash
   python update_table.py
 ```
+
 Delete a Row from a Table
 
 ```bash
   python delete.py
 ```
+
+

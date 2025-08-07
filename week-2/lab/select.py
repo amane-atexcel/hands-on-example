@@ -8,7 +8,7 @@ def query_table():
             host="localhost",
             database="movies",
             user="root",
-            password=" " # Add Password
+            password="0931" # Add Password
         )
         cursor = conn.cursor()
 
